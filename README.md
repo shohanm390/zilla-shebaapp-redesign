@@ -1,20 +1,54 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+<div align="center"> <img width="1200" height="475" alt="Zila Sheba Banner" src="https://play-lh.googleusercontent.com/yvOvyOeksWAN8OP6O4T9D98QPw4lm_5jzA9B6hvtsMMqarZ4ySoUVtSDoIO0nVOZ5N4=w2560-h1440-rw" /> </div>
+🏙️ Zila Sheba App
 
-# Run and deploy your AI Studio app
+A modern district-based service marketplace for Bangladesh where users can explore, buy, and sell products/services across all 64 districts.
 
-This contains everything you need to run your app locally.
+🌐 Live App
 
-View your app in AI Studio: https://ai.studio/apps/4ce803a8-a4f9-42b4-9fc5-f07b7db5be5e
+https://your-live-link.com
 
-## Run Locally
+🚀 Run Locally
 
-**Prerequisites:**  Node.js
+Prerequisites: Node.js
 
+Install dependencies
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+npm install
+
+Create .env file and add:
+
+MONGODB_URI=your_mongodb_uri
+JWT_SECRET=your_secret_key
+NEXT_PUBLIC_API_URL=http://localhost:5000
+
+Run the app
+
+npm run dev
+⚙️ Tech Stack
+Frontend: React.js, Tailwind CSS, Framer Motion
+Backend: Node.js, Express.js
+Database: MongoDB (Mongoose)
+Auth: JWT
+✨ Features
+📍 64 District-based filtering
+🔍 Smart search & multi-layer filtering
+🛒 Marketplace system
+👤 User / Seller roles
+🧑‍💼 Admin dashboard
+📱 Fully responsive UI
+⚡ Smooth animations
+📦 Build
+npm run build
+🧪 Preview
+
+📌 Notes
+Make sure MongoDB Atlas IP is whitelisted
+Use a strong JWT secret in production
+Optimize images for faster loading
+👨‍💻 Author
+
+MD Shohan Hossain
+
+⭐ Support
+
+If you like this project, give it a ⭐ on GitHub.
